@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qwerty</title>
+</head>
+
+<body>
+    <form action="#" id="carform">
+        <label for="choose">brand car</label>
+        <select name="brand-car" id="cars" form="carform">
+            <option value="BMW">BMW</option>
+            <option value="DS">DS</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Skoda">Skoda</option>
+        </select>
+
+        <select name="color_car" id="color-cars" form="carform">
+            <option value="Blue">Blue</option>
+            <option value="Green">Green</option>
+            <option value="Red">Red</option>
+            <option value="White">White</option>
+        </select>
+
+        <select name="year_car" id="year-cars" form="carform">
+            <option value="2010">2010</option>
+            <option value="2007">2007</option>
+            <option value="2015">2015</option>
+            <option value="2018">2018</option>
+        </select>
+        <input type="submit">
+    </form>
+    <button>SORT</button>
+    <ul class="item-of-cars"></ul>
+        <li class="brand-list"></li>
+        <li class="color-list"></li>
+        <li class="year-list"></li>
+
+    <script src="../js/oleh.js"></script>
+</body>
+
+</html>
